@@ -26,6 +26,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}
+
 .img_wolf {
   width: 500px;
 }
@@ -62,17 +67,17 @@
 
 .about-me {
   background-color: #9AEBA3;
-  padding: 20px;
+  padding: 40px;
 }
 
 .my-friends {
   background-color: #45C4B0;
-  padding: 20px;
+  padding: 40px;
 }
 
 .friends-living {
   background-color: #13678A;
-  padding: 20px;
+  padding: 40px;
 }
 
 .my-friends ul {
@@ -81,50 +86,46 @@
 
 .mygroup {
   background-color: #9AEBA3;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .mygroup h1 {
-  padding-left: 20px;
-  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-bottom: 40px;
 }
 
 .mygroup ul {
-  padding-left: 20px;
+  padding-left: 40px;
 }
 
 .group-blair {
   background-color: #45C4B0;
-  padding: 20px;
+  padding: 40px;
 }
 
 .group-jack {
   background-color: #13678A;
-  padding: 20px;
+  padding: 40px;
 }
 
 .group-kyrylo {
   background-color: #45C4B0;
-  padding: 20px;
+  padding: 40px;
 }
 
 .kharkiv {
   background-color: #9AEBA3;
-  padding: 20px;
+  padding: 40px;
 }
 
 .pictures {
   background-color: #45C4B0;
-  padding: 20px;
-}
-
-.pictures img {
-  width: 100%;
+  padding: 40px;
 }
 
 .map {
   background-color: #13678A;
-  padding: 20px;
+  padding: 40px;
 }
 
 .contact {
@@ -132,16 +133,17 @@
 }
 
 .contact-media {
-  padding: 20px;
+  padding: 40px;
 }
 
 .contact iframe {
-  padding: 20px;
+  padding-left: 40px;
+  padding-top: 40px;
 }
 
 .forma {
   background-color: #45C4B0;
-  padding: 20px;
+  padding: 40px;
 }
 
 footer {
@@ -159,4 +161,17 @@ footer a {
 
 footer a:hover {
   color: #13678A;
+}
+
+/* ======================== RESPONSIVE ======================== */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: green;
+  }
 }
