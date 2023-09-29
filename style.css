@@ -242,6 +242,18 @@ Color Theme Swatches in Hex .Poseidon-1-hex {
   }
 
   /* contact.html */
+  .contact {
+    background-color: rgb(170, 253, 180);
+  }
+
+  .contact iframe {
+    width: 800px;
+  }
+
+  .forma {
+    background-color: rgb(100, 232, 212);
+  }
+
   footer {
     background-color: rgb(221, 237, 206);
   }
@@ -305,6 +317,22 @@ Color Theme Swatches in Hex .Poseidon-1-hex {
   }
 
   /* contact.html */
+  .contact {
+    background-color: rgb(189, 255, 196);
+  }
+
+  .contact iframe {
+    width: 400px;
+  }
+
+  .forma {
+    background-color: rgb(128, 249, 231);
+  }
+
+  .contact textarea {
+    width: 100%;
+  }
+
   footer {
     background-color: rgb(245, 253, 237);
   }
