@@ -1,0 +1,162 @@
+/* Color Theme Swatches in Hex 
+.Poseidon-1-hex {
+  color: #012030;
+}
+
+.Poseidon-2-hex {
+  color: #13678A;
+}
+
+.Poseidon-3-hex {
+  color: #45C4B0;
+}
+
+.Poseidon-4-hex {
+  color: #9AEBA3;
+}
+
+.Poseidon-5-hex {
+  color: #DAFDBA;
+}
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img_wolf {
+  width: 500px;
+}
+
+.nav {
+  background-color: #DAFDBA;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #261813;
+  padding: 8px;
+  display: inline-block;
+}
+
+.nav a:hover {
+  color: #fff;
+  background-color: #45C4B0;
+  /* text-shadow: 2px 0 #13678A; */
+  transition: 0.2s;
+  /* text-shadow: 2px 0 #13678A, -2px 0 #13678A, 0 2px #13678A, 0 -2px #13678A,
+    1px 1px #13678A, -1px -1px #13678A, 1px -1px #13678A, -1px 1px #13678A; */
+}
+
+.nav a:not(:hover) {
+  color: #261813;
+  background-color: #DAFDBA;
+  transition: 0.2s;
+}
+
+.about-me {
+  background-color: #9AEBA3;
+  padding: 20px;
+}
+
+.my-friends {
+  background-color: #45C4B0;
+  padding: 20px;
+}
+
+.friends-living {
+  background-color: #13678A;
+  padding: 20px;
+}
+
+.my-friends ul {
+  padding-left: 20px;
+}
+
+.mygroup {
+  background-color: #9AEBA3;
+  padding-top: 20px;
+}
+
+.mygroup h1 {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.mygroup ul {
+  padding-left: 20px;
+}
+
+.group-blair {
+  background-color: #45C4B0;
+  padding: 20px;
+}
+
+.group-jack {
+  background-color: #13678A;
+  padding: 20px;
+}
+
+.group-kyrylo {
+  background-color: #45C4B0;
+  padding: 20px;
+}
+
+.kharkiv {
+  background-color: #9AEBA3;
+  padding: 20px;
+}
+
+.pictures {
+  background-color: #45C4B0;
+  padding: 20px;
+}
+
+.pictures img {
+  width: 100%;
+}
+
+.map {
+  background-color: #13678A;
+  padding: 20px;
+}
+
+.contact {
+  background-color: #9AEBA3;
+}
+
+.contact-media {
+  padding: 20px;
+}
+
+.contact iframe {
+  padding: 20px;
+}
+
+.forma {
+  background-color: #45C4B0;
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: #DAFDBA;
+}
+
+footer p {
+  padding-top: 40px;
+}
+
+footer a {
+  color: #000;
+}
+
+footer a:hover {
+  color: #13678A;
+}
