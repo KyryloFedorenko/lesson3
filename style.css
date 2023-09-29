@@ -183,6 +183,7 @@ Color Theme Swatches in Hex .Poseidon-1-hex {
   color: rgb(218, 253, 186);
 }
 
+/* Tablets */
 @media only screen and (max-width: 992px) {
 
   .nav {
@@ -207,11 +208,46 @@ Color Theme Swatches in Hex .Poseidon-1-hex {
   }
 
   /* mygroup.html */
+  .mygroup {
+    background-color: rgb(170, 253, 180);
+  }
+
+  .group-blair {
+    background-color: rgb(100, 232, 212);
+  }
+
+  .group-jack {
+    background-color: rgb(39, 113, 144);
+  }
+
+  .group-kyrylo {
+    background-color: rgb(100, 232, 212);
+  }
+
+  /* mytown.html */
+  .kharkiv {
+    background-color: rgb(170, 253, 180);
+  }
+
+  .pictures {
+    background-color: rgb(100, 232, 212);
+  }
+
+  .pictures img {
+    width: 100%;
+  }
+
+  .map {
+    background-color: rgb(39, 113, 144);
+  }
+
+  /* contact.html */
   footer {
     background-color: rgb(221, 237, 206);
   }
 }
 
+/* Phones */
 @media only screen and (max-width: 600px) {
   .nav {
     background-color: rgb(245, 253, 237);
@@ -235,6 +271,40 @@ Color Theme Swatches in Hex .Poseidon-1-hex {
   }
 
   /* mygroup.html */
+  .mygroup {
+    background-color: rgb(189, 255, 196);
+  }
+
+  .group-blair {
+    background-color: rgb(128, 249, 231);
+  }
+
+  .group-jack {
+    background-color: rgb(56, 135, 168);
+  }
+
+  .group-kyrylo {
+    background-color: rgb(128, 249, 231);
+  }
+
+  /* mytown.html */
+  .kharkiv {
+    background-color: rgb(189, 255, 196);
+  }
+
+  .pictures {
+    background-color: rgb(128, 249, 231);
+  }
+
+  .pictures img {
+    width: 100%;
+  }
+
+  .map {
+    background-color: rgb(56, 135, 168);
+  }
+
+  /* contact.html */
   footer {
     background-color: rgb(245, 253, 237);
   }
