@@ -1,34 +1,28 @@
-/* Color Theme Swatches in Hex 
-.Poseidon-1-hex {
+/* Color Theme Swatches in Hex .Poseidon-1-hex {
   color: #012030;
+  color: rgb(1, 32, 48);
 }
-
 .Poseidon-2-hex {
   color: #13678A;
+  color: rgb(19, 103, 138);
 }
-
 .Poseidon-3-hex {
   color: #45C4B0;
+  color: rgb(69, 196, 176);
 }
-
 .Poseidon-4-hex {
   color: #9AEBA3;
+  color: rgb(154, 235, 163);
 }
-
 .Poseidon-5-hex {
   color: #DAFDBA;
-}
-*/
+  color: rgb(218, 253, 186);
+} */
 
 * {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.container {
-  width: 1600px;
-  margin: 0 auto;
 }
 
 .img_wolf {
@@ -163,15 +157,85 @@ footer a:hover {
   color: #13678A;
 }
 
-/* ======================== RESPONSIVE ======================== */
-@media screen and (max-width: 600px) {
-  body {
-    background-color: red;
+/* =================== RESPONSIVE =================== */
+Color Theme Swatches in Hex .Poseidon-1-hex {
+  color: #012030;
+  color: rgb(1, 32, 48);
+}
+
+.Poseidon-2-hex {
+  color: #13678A;
+  color: rgb(19, 103, 138);
+}
+
+.Poseidon-3-hex {
+  color: #45C4B0;
+  color: rgb(69, 196, 176);
+}
+
+.Poseidon-4-hex {
+  color: #9AEBA3;
+  color: rgb(154, 235, 163);
+}
+
+.Poseidon-5-hex {
+  color: #DAFDBA;
+  color: rgb(218, 253, 186);
+}
+
+@media only screen and (max-width: 992px) {
+
+  .nav {
+    background-color: rgb(221, 237, 206);
+  }
+
+  .nav a:not(:hover) {
+    background-color: rgb(221, 237, 206);
+  }
+
+  /* index.html */
+  .about-me {
+    background-color: rgb(170, 253, 180);
+  }
+
+  .my-friends {
+    background-color: rgb(100, 232, 212);
+  }
+
+  .friends-living {
+    background-color: rgb(39, 113, 144);
+  }
+
+  /* mygroup.html */
+  footer {
+    background-color: rgb(221, 237, 206);
   }
 }
 
-@media screen and (max-width: 992px) {
-  body {
-    background-color: green;
+@media only screen and (max-width: 600px) {
+  .nav {
+    background-color: rgb(245, 253, 237);
+  }
+
+  .nav a:not(:hover) {
+    background-color: rgb(245, 253, 237);
+  }
+
+  /* index.html */
+  .about-me {
+    background-color: rgb(189, 255, 196);
+  }
+
+  .my-friends {
+    background-color: rgb(128, 249, 231);
+  }
+
+  .friends-living {
+    background-color: rgb(56, 135, 168);
+  }
+
+  /* mygroup.html */
+  footer {
+    background-color: rgb(245, 253, 237);
   }
 }
